@@ -32,7 +32,7 @@ function Home2() {
                 <b className="purple">developing Automations, streamlining the product developement through CI/CD Practices </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  IaC and Deployments & Managing Kubenetes Deployments
+                  IaC and Deployments & Managing Kubernetes Deployments
                 </b> 
               </i>
               <br />
@@ -46,7 +46,7 @@ function Home2() {
                 </b>
               </i>
                             <i>
-                <b className="purple"> - Good Experience in Docker, Kubenetes, Vagrant, IaC</b>
+                <b className="purple"> - Good Experience in Docker, Kubernetes, Vagrant, IaC</b>
               </i>
             </p>
           </Col>
