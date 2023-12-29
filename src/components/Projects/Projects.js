@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Ultimate CI/CD E2E Pipeline using various DevOps Tools"
+              description="I successfully implemented a robust CI/CD pipeline using Jenkins, Maven, and SonarQube for continuous integration and code quality analysis. The pipeline is defined through a Jenkinsfile and utilizes custom Shell Scripts for efficient image updates. Seamless deployment and orchestration are achieved using ArgoCD and Kubernetes, ensuring automated and consistent delivery of applications. This project exemplifies my expertise in building end-to-end DevOps solutions for efficient and reliable software development workflows."
+              ghLink="https://github.com/iamrajasekhar/Jenkins_CI-CD/tree/main/java-maven-sonar-argocd-helm-k8s"
+              demoLink="https://github.com/iamrajasekhar/Jenkins_CI-CD/tree/main/java-maven-sonar-argocd-helm-k8s"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Deploying 2048 game on a Managed EKS Cluster using Fargate service"
+              description="I successfully deployed a 2048 application on Amazon EKS Cluster utilizing AWS Fargate for serverless container orchestration. This project included purchasing a domain and configuring it to redirect to the application, ensuring a seamless user experience. SSL certificates were integrated into the load balancer, enhancing security for the deployed application. This comprehensive solution demonstrates my proficiency in deploying scalable, secure, and user-friendly applications on cloud infrastructure."
+              ghLink="https://github.com/iamrajasekhar/EKS_2048_Deployment_resources.git"
+              demoLink="https://drive.google.com/file/d/1AAWmsTIj1fKP-iM4rJiD3GjJLkfkXc9z/view?usp=sharing"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Kubernetes setup on AWS using KOps"
+              description="I orchestrated the seamless setup of a Kubernetes cluster on AWS using Kops, optimizing the cluster creation process for AWS infrastructure. Leveraging this Kubernetes cluster on AWS, I deployed and thoroughly tested applications, validating the cluster's scalability and reliability on the AWS cloud platform. This project underscores my proficiency in AWS-specific Kubernetes infrastructure management, showcasing the ability to create and maintain a robust environment for deploying and testing applications in the AWS ecosystem."
+              ghLink="https://github.com/iamrajasekhar/Kubernetes.git"
+              demoLink="https://www.linkedin.com/posts/rajasekhar-betha_day19-activity-7146392237625520129-SDmz?utm_source=share&utm_medium=member_desktop"              
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="K8s Cluster Monitoring setup using Grafana and Prometheus"
+              description="I successfully implemented a Kubernetes monitoring solution on my local Minikube cluster, leveraging Grafana and Prometheus. This project involved setting up robust monitoring capabilities to track the performance and health of the deployed applications. Grafana dashboards were configured to provide real-time insights into the cluster's metrics, ensuring proactive monitoring and efficient troubleshooting. This project highlights my proficiency in implementing effective monitoring solutions for Kubernetes environments, even in local development setups."
+              ghLink="https://github.com/iamrajasekhar/Prometheus-Grapahans.git"
+              demoLink="https://www.linkedin.com/posts/rajasekhar-betha_day18-activity-7146014884772610049-RBU1?utm_source=share&utm_medium=member_desktop"
             />
           </Col>
 
@@ -69,10 +69,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Deployments of Microservices on Kubernetes Cluster"
+              description="In a dynamic Docker-Java-Kubernetes initiative, I orchestrated the deployment of three Java applications—Shopfront, Product Catalogue, and Stock Manager—seamlessly integrating Docker for efficient containerization and Kubernetes for scalable orchestration. The project spanned from local Minikube testing to cloud deployment on Amazon EKS, involving meticulous infrastructure setup, IAM role configuration, and EKS cluster creation. The deployment process, managed through YAML files, ensured a smooth flow from Shopfront to Product Catalogue and Stock Manager. Docker played a pivotal role, containerizing Java applications and pushing images to Docker Hub. The hands-on experience showcased my proficiency in end-to-end solution orchestration and efficient DevOps practices in cloud-native environments."
+              ghLink="https://github.com/iamrajasekhar/Kubernetes_Java_Deployment.git"
+              demoLink="https://www.linkedin.com/posts/rajasekhar-betha_kubernetes-eks-prometheus-activity-7139592899742105600-Imx0?utm_source=share&utm_medium=member_desktop" 
             />
           </Col>
 
@@ -80,11 +80,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Developed CI pipelines using Jenkins Shared Library"
+              description="Successfully executed a Jenkins Shared Library project, demonstrating expertise in streamlined and reusable CI/CD workflows. Leveraged the shared library to automate and enhance Jenkins pipelines for efficient software delivery. Additionally, orchestrated the seamless deployment of a web application, showcasing proficiency in end-to-end DevOps practices and deployment strategies."
+              ghLink="https://github.com/iamrajasekhar/Jenkins-shared-library.git"
+              demoLink="https://www.linkedin.com/feed/update/urn:li:activity:7133767900921827328?utm_source=share&utm_medium=member_desktop" 
             />
           </Col>
         </Row>
