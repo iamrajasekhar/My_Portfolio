@@ -23,16 +23,16 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img
-          src= "https://png2.cleanpng.com/dy/03e45375abbfcb3f55be21936cabd28a/L0KzQYm3V8A2N5tufZH0aYP2gLBuTfJie5kyi9pubHywg7T5igB1NZR0hd9qbnSwfLr1hb1qdqVqithqY3Wwin76iPVtdF46eqVtZkW6QoO4UvQ4O181TqoCN0C1QIK8U8A4QGg2UKg6M0W8PsH1h5==/kisspng-bash-shell-script-command-line-interface-z-shell-5b3df572212d73.0687702015307871861359.png"  // Replace with the correct path
+          src= "https://bashlogo.com/img/logo/png/full_colored_light.png"  // Replace with the correct path
           alt="bash Logo"
-          style={{ width: '80%', height: '130px' }}
+          style={{ width: '80%', height: 'auto' }}
         />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img
           src= "https://zeevector.com/wp-content/uploads/Microsoft-Azure-DevOps-logo.png"  // Replace with the correct path
           alt="azure devops Logo"
-          style={{ width: '100%', height: 'auto' }}
+          style={{ width: '80%', height: 'auto' }}
         />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -111,7 +111,7 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <img
-          src= "https://static-00.iconduck.com/assets.00/ansible-icon-512x512-o62vjrpd.png"  // Replace with the correct path
+          src= "https://redhat.gallerycdn.vsassets.io/extensions/redhat/ansible/2.13.148/1709738013378/Microsoft.VisualStudio.Services.Icons.Default"  // Replace with the correct path
           alt="ansible Logo"
           style={{ width: '90%', height: '160px' }}
         />
